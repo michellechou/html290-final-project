@@ -1,0 +1,40 @@
+body {
+    padding-top: 30px;
+}
+
+.flex-container {
+    border: 2px none;
+    margin: 50px auto;
+    position: relative;
+    background-color: #fff;
+    width: 800px;
+}
+
+.label {
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    padding: 3px 20px;
+    position: absolute;
+    color: white;
+    background-color: black;
+    top: -35px;
+    left: -2px;
+    border-radius: 10px 10px 0 0;
+}
+
+.box {
+    border: 1px none;
+    color: grey;
+    text-align: center;
+    width: calc (100% / 3);
+    padding: 20px;
+}
+
+.box-name {
+    border: 1px none;
+    color: grey;
+    text-align: left;
+    width: 100px;
+    padding: 20px;
+}

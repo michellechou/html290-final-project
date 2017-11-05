@@ -1,0 +1,40 @@
+.box {
+    height: 200px;
+    float: left;
+}
+
+#box-name {
+    width: 60%;
+}
+
+#box-items {
+    width: calc(40% / 3);
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    border: 1px solid white;
+    overflow: auto;
+}
+
+.flex-container {
+    display: flex;
+    height: 300px;
+    border: 1px none;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
