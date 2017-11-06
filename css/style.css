@@ -34,6 +34,7 @@
     height: 700px;
     text-align: center;
     background-image: url("../images/image001.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
     /* background-position: center center; */
 }
