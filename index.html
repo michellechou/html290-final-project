@@ -13,19 +13,35 @@
 
 <body>
     <!-- header 開始 -->
-    <header>
+    <!-- <header>
         <div class="container" id="top">
             <div class="header_name namefont">Michelle Ming-Chieh Chou</div>
             <div class="header_none">__</div>
             <a class="header_nav" href="#bar2">About</a>
             <a class="header_nav" href="#bar1">Projects</a>
         </div>
-    </header>
+    </header> -->
+
+    <nav>
+        <ul class="navbar">
+            <li class="brand namefont">Michelle Ming-Chieh Chou</li>
+        </ul>
+
+        <ul class="navbar-right">
+            <li>
+                <a class="header_nav" href="#bar1">Projects</a>
+            </li>
+            <li>
+                <a class="header_nav" href="#bar2">About</a>
+            </li>
+        </ul>
+    </nav>
+
     <!-- header 結束 -->
 
     <!-- jumbotron 開始 -->
     <section>
-        <div class="container_main">
+        <div class="container_main justify-content align-items-center">
             <div class="textbox">
                 <h1 class="namefont">
                     <font size="50px">Michelle Ming-Chieh Chou</font>
@@ -52,8 +68,8 @@
 
     <!-- Project 1 開始 -->
     <section>
-        <div class="container_mid" id="p1">
-            <div class="boxinside">
+        <div class="container_mid justify-space-around align-items-center" id="p1">
+            <div class="box_text align-content-center">
                 <h1>Project 1</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas assumenda expedita fugiat iusto eaque
                     cumque officia modi animi rem tenetur ut neque dignissimos voluptates, minima, quidem natus dolorem cupiditate.</p>
@@ -61,7 +77,9 @@
                     <a class="btn" href="./1project1/index.html">Case Study</a>
                 </div>
             </div>
-            <div class="boxinside">img</div>
+            <div class="box_img">
+                <img src="./images/image002.png" width="350px" height="400px" alt="project1">
+            </div>
         </div>
     </section>
     <!-- Project 1 結束 -->
@@ -69,10 +87,12 @@
 
     <!-- Project 2 開始 -->
     <section>
-        <div class="container_mid" id="p2">
+        <div class="container_mid justify-space-around align-items-center" id="p2">
 
-            <div class="boxinside">img</div>
-            <div class="boxinside">
+            <div class="box_img">
+                <img src="./images/image003.jpg" width="350px" height="400px" alt="project2">
+            </div>
+            <div class="box_text">
                 <h1>Project 2</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas assumenda expedita fugiat iusto eaque
                     cumque officia modi animi rem tenetur ut neque dignissimos voluptates, minima, quidem natus dolorem cupiditate.</p>
@@ -88,8 +108,8 @@
 
     <!-- Project 3 開始 -->
     <section>
-        <div class="container_mid" id="p3">
-            <div class="boxinside">
+        <div class="container_mid justify-space-around align-items-center" id="p3">
+            <div class="box_text">
                 <h1>Project 3</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas assumenda expedita fugiat iusto eaque
                     cumque officia modi animi rem tenetur ut neque dignissimos voluptates, minima, quidem natus dolorem cupiditate.</p>
@@ -97,14 +117,16 @@
                     <a class="btn" href="./3project3/index.html">Case Study</a>
                 </div>
             </div>
-            <div class="boxinside">img</div>
+            <div class="box_img">
+                <img src="./images/image004.jpg" width="350px" height="400px" alt="project3">
+            </div>
         </div>
     </section>
     <!-- Project 3 結束 -->
 
 
     <!-- Other Projects 開始 -->
-    <section class="bar_white" id="bar2">
+    <section class="bar_white">
         <div>
             More Projects
         </div>
@@ -142,6 +164,7 @@
     </section>
     <!-- Other Projects 結束 -->
 
+
     <!-- About 表頭開始 -->
     <section class="bar" id="bar2">
         <div>
@@ -150,9 +173,10 @@
     </section>
     <!-- About 表頭結束 -->
 
+
     <!-- About 開始 -->
-    <section class="container_mid">
-        <div class="boxinside">
+    <section class="container_mid justify-space-around align-items-center">
+        <div class="box_text">
             <ul>
                 <li>Lorem ipsum dolor sit amet.</li>
                 <li>Lorem ipsum dolor sit amet.</li>
@@ -161,13 +185,13 @@
                 <li>Lorem ipsum dolor sit amet.</li>
             </ul>
         </div>
-        <div class="boxinside">
+        <div class="box_text">
             <p>+886-917012996</p>
             <p>michelle.mcchou@gmail.com</p>
         </div>
-
     </section>
     <!-- About 結束 -->
+
 
     <!-- Footer 開始 -->
     <footer class="namefont">
