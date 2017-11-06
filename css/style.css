@@ -64,6 +64,7 @@ body {
     height: 450px;
     display: flex;
     background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid darkgrey;
 }
 
 .boxinside {
@@ -96,30 +97,82 @@ a {
     color: lightsteelblue;
 }
 
-#p1 {}
-
-#p2 {}
-
-#p3 {}
-
 .flex-container {
     display: flex;
     width: 100%;
-    height: 300px;
-    border: 1px solid blue;
+    height: 380px;
+    justify-content: center;
+}
+
+.bar_white {
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30 px;
+    font-weight: bold;
 }
 
 .box {
     width: calc(100% / 3);
-    height: 200px;
-    border: 1px solid black;
     text-align: center;
+    padding: 2px;
+    float: right;
+}
+
+.card {
+    position: relative;
+}
+
+.card p {
+    position: absolute;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    top: calc((100%-30px) / 2);
+    color: black;
+    font-size: 20px;
+}
+
+.card p:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.card img {
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+
+.card:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    transition: opacity 1.5s;
+}
+
+.card:hover:after {
+    content: "";
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 0;
 }
 
 footer {
-    background-color: grey;
+    background-color: darkgrey;
+    color: rgb(32, 32, 32);
     text-align: center;
     height: 50px;
+    line-height: 50px;
 }
 
 
