@@ -3,6 +3,14 @@
         /* font-size: 22px; */
     }
 
+    .newfont1 {
+        font-family: 'Encode Sans Condensed', sans-serif;
+    }
+
+    .newfont2 {
+        font-family: 'Encode Sans Semi Condensed', sans-serif;
+    }
+
     .jumbotron {
         border-radius: 0px;
         background-image: url(../images/jumboimage.jpg);
@@ -17,8 +25,7 @@
     }
 
     .bar {
-        height: 50px;
-        line-height: 50px;
+        height: 100px;
     }
 
     @media screen and (max-width: 576px) {
