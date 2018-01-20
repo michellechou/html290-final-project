@@ -1,15 +1,6 @@
-    .namefont {
-        font-family: 'Dancing Script', cursive;
-        /* font-size: 22px; */
-    }
-
-    .newfont1 {
+    .titlefont {
         font-family: 'Encode Sans Condensed', sans-serif;
-        font-weight: bold;
-    }
-
-    .newfont2 {
-        font-family: 'Encode Sans Semi Condensed', sans-serif;
+        font-weight: 900;
     }
 
     .jumbotron {
