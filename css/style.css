@@ -2,14 +2,6 @@
         font-family: 'Encode Sans Condensed', sans-serif;
     }
 
-    .bold {
-        font-weight: 900;
-    }
-
-    .bodyfont {
-        font-family: 'Encode Sans', sans-serif;
-    }
-
     .jumbotron {
         border-radius: 0px;
         background-image: url(../images/jumboimage.jpg);
