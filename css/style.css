@@ -1,6 +1,9 @@
     .titlefont {
         font-family: 'Encode Sans Condensed', sans-serif;
-        font-weight: bold;
+    }
+
+    .bold {
+        font-weight: 900;
     }
 
     .bodyfont {
@@ -21,7 +24,7 @@
     }
 
     .bar {
-        height: 100px;
+        height: 85px;
     }
 
     @media screen and (max-width: 576px) {
