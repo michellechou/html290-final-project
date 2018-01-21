@@ -1,6 +1,10 @@
     .titlefont {
         font-family: 'Encode Sans Condensed', sans-serif;
-        font-weight: 900;
+        font-weight: bold;
+    }
+
+    .bodyfont {
+        font-family: 'Encode Sans', sans-serif;
     }
 
     .jumbotron {
@@ -8,7 +12,7 @@
         background-image: url(../images/jumboimage.jpg);
         background-size: auto;
         background-repeat: no-repeat;
-        background-position: 30% 50%;
+        background-position: 40% 60%;
     }
 
     .jumbotronmargin {
