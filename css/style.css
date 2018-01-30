@@ -8,7 +8,8 @@
 
     .jumbotron {
         border-radius: 0px;
-        background-image: url(../images/jumboimage.jpg);
+        background-color: white;
+        /* background-image: url(../images/jumboimage.jpg); */
         background-size: auto;
         background-repeat: no-repeat;
         background-position: 40% 60%;
@@ -16,6 +17,10 @@
 
     .jumbotronmargin {
         margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .jumbotronmargin2 {
         margin-bottom: 20px;
     }
 
