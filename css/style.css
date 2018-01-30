@@ -3,7 +3,7 @@
     }
 
     .secfont {
-        font-family: 'Encode Sans', sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
     }
 
     .jumbotron {
@@ -17,10 +17,10 @@
 
     .jumbotronmargin {
         margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 22px;
     }
 
-    .jumbotronmargin2 {
+    .jumbotronmargind {
         margin-bottom: 20px;
     }
 
